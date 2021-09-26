@@ -1,0 +1,44 @@
+.container{
+    text-align: center;
+    margin:15% auto;
+    width:75%;
+    justify-content: center;
+}
+
+.game-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background-image: url("blackjack_background.jpg");
+    color:white;
+}
+
+.game-container div{
+    border: 1px solid black;
+    height: 350px;
+    padding:10px;
+    flex: 1;
+}
+.button-container{
+    background-image: url("blackjack_background.jpg");
+    padding: 10px; 
+}
+.button-container button{
+    border:1px solid black;
+}
+.player img,.bot img{
+    margin:10px;
+}
+
+table th,table td{
+    border:1px solid white;
+    text-align: center;
+    background-color:black;
+    border-collapse: collapse;
+    color: white;
+}
+table{
+    width:77%;
+    position: relative;
+    left: 150px;
+}
